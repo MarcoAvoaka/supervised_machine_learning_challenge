@@ -1,5 +1,15 @@
 # Supervised Machine Learning Homework - Predicting Credit Risk
 
+
+###CONCLUSIONS
+
+
+We can expect a better performance from the random forest compared to the random forest classifier. The random forest classifier model has a better performance of 0.63 while the logistic regression model has a score of 0.5
+
+After scaling, the logistic regression model had a better performance than the random forest classifier model with a score of 0.75; which is a 0.5 increase. We then conclude that the logistic regression model is more sensitive to scaling than the random forest classifier model.
+
+
+
 In this assignment, you will be building a machine learning model that attempts to predict whether a loan from LendingClub will become high risk or not. 
 
 ## Background
@@ -46,6 +56,7 @@ Fit and score the LogisticRegression and RandomForestClassifier models on the sc
 ### References
 
 LendingClub (2019-2020) _Loan Stats_. Retrieved from: [https://resources.lendingclub.com/](https://resources.lendingclub.com/)
+
 
 - - -
 
